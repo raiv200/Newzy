@@ -1,27 +1,21 @@
 import React from "react";
-import Header from "./Header"
-import Footer from "./Footer"
+import Header from "./Header";
+import Footer from "./Footer";
+import Form from "./form";
 function login(){
  return (
 <div>
      <div>
      <Header/>
 
-     <div className="container">
-
-     <h2> SUBSCRIBE TO OUR NEWS-LETTER</h2>
-     <form >
-     <input name="fname" placeholder="Enter Your  First Name"></input>
-     <input name="lname" placeholder="Enter Your Last Name"></input>
-     <input name="email" placeholder="Enter Your Email"></input>
-     <button type="submit"> Submit</button>
-     </form>
-     
-     
- </div>
-     
-         
-   </div>
+     <Form/>
+     </div>
+   <div>
+    <p>Get the Latest Technology and Programming News at your Email. </p>
+    
+    <i className="far fa-newspaper fa-9x"></i>
+    <h2>SubScribe Now !!</h2>
+  </div>
 
 <Footer/>
 </div>

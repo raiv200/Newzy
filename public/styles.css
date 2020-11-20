@@ -37,9 +37,10 @@ div p{
 header{
   background-color: #6c5ce7;
   font-family: "McLaren", cursive;
-  opacity: 0.4;
+  color:#ffa801;
+  opacity: 0.5;
   margin: auto -16px;
-  padding: 16px 32px;
+  padding: 16px 120px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -47,10 +48,9 @@ header{
      position:absolute;
      max-height: 100vh; 
      max-width:24%;
-     margin: 20px 100px 24px 980px;
-     padding:80px 50px;
+     margin: 30px 100px 24px 980px;
+     padding:86px 50px;
      display: block;  
-     
      background-origin: 2px solid rgb(3, 35, 43);
      opacity: 0.7;
      border-radius: 20px;
@@ -74,15 +74,25 @@ header{
     font-weight: 900;
     font-family: "McLaren", cursive;
     font-size: 1.4rem;
-    padding: 10px 9px 15px;
-    margin: 5px auto 44px;
+    padding: 0px 9px 0px;
+    margin: -25px auto 75px;
     text-align: center;
  }
-
+ .container p{
+  width: 250px;
+  text-align: center;
+  margin:-40px auto 25px;
+  padding: 0;
+  color: #ecf0f1;
+   font-weight: 900;
+  font-family: "McLaren", cursive;
+}
  button{
-     
+     appearance: none;
+     outline: 0;
      padding: 8px 50px ;
-     margin:5px  53px ;
+     margin:10px  53px 5px;
+     
      border: 2px solid black;
      border-radius:50px;
      background-color: #a29bfe;
